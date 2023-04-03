@@ -1,0 +1,34 @@
+%ml-auto {
+   margin-left: auto;
+}
+
+.navbar {
+   display: flex;
+    align-items: center;
+   
+    &--toggler {
+        margin-left: auto;
+        
+        @include media-breakpoint-up(md) {
+            display: none;
+        }
+    }
+
+    &--nav {
+        display: none;
+        margin-left: auto;
+
+        @include media-breakpoint-up(md) {
+            display: flex;
+        }
+
+        &--item {
+            margin-left: 1rem;
+        }
+    }
+
+    &--theme--switcher {
+        margin-left: 1rem;
+    }
+
+}
