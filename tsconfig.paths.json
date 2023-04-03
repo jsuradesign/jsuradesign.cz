@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@root/*": [
+                "./src/*"
+            ],
+            "@component/*": [
+                "./src/components/*"
+            ],
+            "@logic": [
+                "./src/logic/*"
+            ],
+            "@model": [
+                "./src/models/*"
+            ],
+            "@page/*": [
+                "./src/pages/*"
+            ],
+            "@util/*": [
+                "./src/utils/*"
+            ],
+        }
+    }
+}
